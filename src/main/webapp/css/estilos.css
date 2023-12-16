@@ -1,0 +1,83 @@
+
+
+.tituloPrincipal{
+    color: rgb(148, 231, 132);
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+    
+    
+}
+
+/*estilos formulario*/
+form{
+    margin: 0 auto;
+}
+
+.contenidoForm{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.formulario h2{
+    font-family: 'Noto Sans Shavian', sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(48, 47, 47);
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 15px;
+    padding-bottom: 3px;
+
+}
+
+.formulario p{
+    text-align: center;
+    font-family: 'Noto Sans Shavian', sans-serif;
+    color: rgb(48, 47, 47);
+}
+.contenidoForm p{
+    font-family: 'Noto Sans Shavian', sans-serif;
+    font-size:small;
+    color: rgb(156, 152, 152);
+}
+
+input:hover{
+    background: rgb(223, 218, 218);
+}
+
+input:focus{
+    background: rgb(203, 193, 193);
+}
+input{
+    width: 210px;
+}
+
+input{
+    padding: 5px;
+    font-family: 'Noto Sans Shavian', sans-serif;
+}
+
+.name{
+    margin-right: 40px;
+}
+
+.botonEnviar input{
+    font-family: 'Noto Sans Shavian', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: rgb(150,201,62);
+    border-radius: 5px;
+    width: 460px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
