@@ -36,9 +36,15 @@
 		        background-color: rgb(150,201,62);
                 margin-top: 40px;
                 color: white;
-				
-		        
+		    }
 		    
+		    #modificar{
+		        background-color: rgb(150,201,62);
+                
+                color: white;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
 		    }
 		  </style>
 	</head>
@@ -77,7 +83,7 @@
 		                            required>
 		                        </div>
 		                    </div>
-								<button type="submit" class="btn modificar btn-lg btn-form">Modificar</button>                        
+								<button type="submit" id= modificar class="btn modificar btn-lg btn-form">Modificar</button>                        
 		                 </div>
 		                </div>
 		               </div>
