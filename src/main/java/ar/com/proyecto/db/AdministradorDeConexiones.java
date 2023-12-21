@@ -2,7 +2,7 @@ package ar.com.proyecto.db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class AdministracionDeConexiones {
+public class AdministradorDeConexiones {
 	
 	// vamos a crear un metodo estatico es decir que no vamos a crear un objeto para usar este metodo
 	public static Connection getConnection() {
